@@ -1,0 +1,230 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 19042,
+      "max": [
+        15.866933822631836,
+        15.78144645690918,
+        16.60060691833496
+      ],
+      "min": [
+        -15.882022857666016,
+        -18.20458984375,
+        -15.391242980957031
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 19042,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 19042,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 112896,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.63",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 228504,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 228504,
+      "byteOffset": 228504,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 152336,
+      "byteOffset": 457008,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 225792,
+      "byteOffset": 609344,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27143607,
+      "byteOffset": 835136
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20726639,
+      "byteOffset": 27978744
+    },
+    {
+      "buffer": 0,
+      "byteLength": 25604297,
+      "byteOffset": 48705384
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 74309684
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_texture_transform"
+  ],
+  "extensionsUsed": [
+    "KHR_texture_transform"
+  ],
+  "images": [
+    {
+      "bufferView": 4,
+      "mimeType": "image/png",
+      "name": "Planet_normal"
+    },
+    {
+      "bufferView": 5,
+      "mimeType": "image/png",
+      "name": "Planet_AORM"
+    },
+    {
+      "bufferView": 6,
+      "mimeType": "image/png",
+      "name": "Planet_basecolor"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Planet.001",
+      "normalTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "offset": [
+              0,
+              -4
+            ],
+            "scale": [
+              5,
+              5
+            ]
+          }
+        },
+        "index": 0
+      },
+      "occlusionTexture": {
+        "extensions": {
+          "KHR_texture_transform": {
+            "offset": [
+              0,
+              -4
+            ],
+            "scale": [
+              5,
+              5
+            ]
+          }
+        },
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "extensions": {
+            "KHR_texture_transform": {
+              "offset": [
+                0,
+                -4
+              ],
+              "scale": [
+                5,
+                5
+              ]
+            }
+          },
+          "index": 2
+        },
+        "metallicRoughnessTexture": {
+          "extensions": {
+            "KHR_texture_transform": {
+              "offset": [
+                0,
+                -4
+              ],
+              "scale": [
+                5,
+                5
+              ]
+            }
+          },
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.001",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Planet_1"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
